@@ -1,0 +1,21 @@
+h1 {
+    font-size: 4rem;
+    color: cadetblue;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    color: black;
+    background-color: cadetblue;
+}
+
+button:hover {
+    opacity: .7;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+
+}
