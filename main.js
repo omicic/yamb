@@ -9,23 +9,20 @@ var igrac = {
 
 let li_slobodna_kolona_unos = document.querySelector('.slobodnakolona').querySelector('ul'); //.querySelectorAll('li [data-id*="unos"]');
 
-console.log(li_slobodna_kolona_unos);
-
-
 let tabla_ul = document.getElementById("bacanja");
 let izbor_ul = document.getElementById("izbor_ul");
 let liIzbor = izbor_ul.getElementsByTagName('li');
 let liBacanja = tabla_ul.getElementsByTagName('li'); //svi li iz bacanja
 
 let prvaprazna = 0;
-var b = 0;
+var ukupno = 0;
 let rezultat = {
-    1: b,
-    2: b,
-    3: b,
-    4: b,
-    5: b,
-    6: b,
+    1: ukupno,
+    2: ukupno,
+    3: ukupno,
+    4: ukupno,
+    5: ukupno,
+    6: ukupno,
 };
 
 var bacanje = [];
@@ -184,30 +181,6 @@ function izbor_za_upis() {
         }
     });
 
-
-
-
-
-
-
-    //let izbor_za_upis = prompt('Izaberite šta ćete upisati u slobodnu kolonu: ');
-
-    //let click = li_unos.addEventListener('click',() =>console.log("kliknuto"))
-    //let izbor_za_upis = ;
-
-
-    /*  for (prop in igrac) {
-         if (prop === "yamb") {
-             igrac[prop]["slobodnakolona"][izbor_za_upis - 1] = rezultat[izbor_za_upis] * izbor_za_upis;
-         }
-     }
-
-
-     for (prop in rezultat) {
-         if (rezultat[prop] === 0) {
-             //igraj();
-         }
-     } */
 }
 
 
